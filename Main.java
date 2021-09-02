@@ -1,10 +1,19 @@
 class Main {
   public static void main(String[] args) {
+
 // Aufruf der Funktion Ausgeben
-    Ausgeben("Hello World");
+
+    for (int zähler = 0; zähler < 10; zähler++) {
+      Ausgeben("Hello World");
+    }
   }
-  public static void Ausgeben(String AusgabeText){
+
+  /*
+  Ziel: Ausgabe des Texts (Parameter)
+  Parameter: Auszugebender Text
+  Rückgabe: keine
+   */
+  public static void Ausgeben(String AusgabeText) {
     System.out.println(AusgabeText);
   }
 }
-
