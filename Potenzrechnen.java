@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Potenzrechnen {
+public class Potenzrechnen {
+    public static void Potenzrechnen(int )
 }
