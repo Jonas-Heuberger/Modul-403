@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Variables {
+public class Variables {
+    public static void Name(String Name){
+        System.out.println("Hello " + Name);
+    }
 }

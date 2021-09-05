@@ -7,7 +7,6 @@
     <list default="true" id="830ff87a-eb2f-45c4-b80b-14ad0990fe19" name="Changes" comment="Update">
       <change afterPath="$PROJECT_DIR$/Variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Potenzrechnen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Potenzrechnen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
