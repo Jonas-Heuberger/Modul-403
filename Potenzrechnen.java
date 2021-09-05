@@ -2,7 +2,6 @@
  Potenzrechnen
  */
 public class Potenzrechnen {
-
     
 }
 
