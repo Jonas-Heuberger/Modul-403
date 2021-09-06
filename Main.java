@@ -1,15 +1,17 @@
 class Main {
   public static void main(String[] args) {
 
+    Potenzrechnen.Scanner();
     Variables.Name("John");
 // Aufruf der Funktion Ausgeben
 
-    for (int zähler = 0; zähler < 10; zähler = zähler++ ) { // zähler = zähler +1
+    for (int zähler = 0; zähler < 10; zähler++ ) { // zähler = zähler +1
       Ausgeben("Hello World");
     }
-  }
 
 
+    Potenzrechnen.Potenz();
+}
   /*
   Ziel: Ausgabe des Texts (Parameter)
   Parameter: Auszugebender Text
@@ -19,3 +21,4 @@ class Main {
     System.out.println(AusgabeText);
   }
 }
+
