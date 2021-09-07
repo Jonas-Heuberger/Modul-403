@@ -1,7 +1,9 @@
 class Main {
   public static void main(String[] args) {
 
-    Potenzrechnen.Scanner();
+   // Potenzrechnen.GenerateRandom();
+
+   // Potenzrechnen.Scanner();
     Variables.Name("John");
 // Aufruf der Funktion Ausgeben
 
