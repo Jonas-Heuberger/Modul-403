@@ -12,7 +12,7 @@ public class Potenzrechnen {           // Code von Geekforgeeks
         System.out.println(Math.pow(rand_int, potent));
     }
 
-
+}
 /*
         public static void Scanner(){             // YouTube Tutorial (Java Scanner Tutorial)
             Scanner sc = new Scanner(System.in);
