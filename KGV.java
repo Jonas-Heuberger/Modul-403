@@ -2,7 +2,7 @@
 
 public class KGV {
 
-        public static void KGV (){
+        public static void KGV(){
             int zahl1 = 9;
             int zahl2 = 5;
 

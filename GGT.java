@@ -1,5 +1,5 @@
 // Euklidischer Algorithmus
-//
+// Quelle: https://www.youtube.com/watch?v=1h8xb34T99Y
 
 public class GGT {
     public static void GGT(){
