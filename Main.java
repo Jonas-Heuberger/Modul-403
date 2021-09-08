@@ -1,5 +1,7 @@
 class Main {
   public static void main(String[] args) {
+    KGV.KGV();
+    GGT.GGT();
 
    // Potenzrechnen.GenerateRandom();
 
