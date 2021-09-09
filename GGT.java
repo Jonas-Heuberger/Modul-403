@@ -3,7 +3,7 @@
 
 public class GGT {
     public static void GGT(){
-        int Zahl1, Zahl2, Grössere_Zahl, Kleinere_Zahl, Rest;
+        int Zahl1, Zahl2, Grössere_Zahl, Kleinere_Zahl, Rest; // hier wird für alle Variablen der Datentyp festgelegt
 
         Zahl1 = 5;
         Zahl2 = 10;

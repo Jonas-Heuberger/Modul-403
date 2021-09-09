@@ -3,7 +3,7 @@ import java.util.Random; // Geek for Geeks
 /**
  Potenzrechnen
  */
-public class Potenzrechnen {           // Code von Geekforgeeks
+public class Potenzrechnen {           // Code von Geek for Geeks
     public static void Potenz() {
         Random rand = new Random();
         int rand_int = rand.nextInt(100);

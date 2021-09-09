@@ -1,21 +1,31 @@
-// Quelle: https://trainyourprogrammer.de/java-129-bestimmung-des-kleinsten-gemeinsamen-vielfachen-kgv.html
+// Manuel Matteo Capretta
 
 public class KGV {
+    public static void KGV() {
+        int num1 = 5;
+        int num2 = 8;
+        int start;
 
-        public static void KGV(){
-            int zahl1 = 9;
-            int zahl2 = 5;
+        //Check if one of the given numbers is 0
+        if (num1 > 0 && num2 > 0) {
 
-            while (zahl1 != zahl2) {
-                if (zahl1 < zahl2) {
-                    zahl1 += 1;
-                } else {
-                    zahl2+= 2;
-                }
+            //Start the for loop with the bigger number
+            if (num1 > num2) {
+                start = num1;
+            } else {
+                start = num2;
             }
 
-            System.out.println("KGV: "  + zahl1);
-
+            //Check for the smallest number that is divisible by num1 and num2
+            for (int i = start; i <= num1 * num2; i++) {
+                if (i % num1 == 0 && i % num2 == 0) {
+                    System.out.println("KGV: " + i);
+                    break;
+                }
+            }
+        } else {
+            System.out.println("KGV: 0\n");
         }
     }
+}
 
