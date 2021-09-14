@@ -9,12 +9,11 @@ class Main {
     System.out.println("Schreibe MWST Satz "); // Abfrage des MWST Satzes
     double MwstSatz = MWST.Abfrage(); // Definiere Abfrage der Zahl als MWST Satz
 
-
     double Resultat = MWST.BerechneMwst(Betrag, MwstSatz); // Definiere Resultat als Ausgabe der Berechnungs Funktion
     MWST.Ausgabe(Resultat, Betrag); // Gebe Resultat aus
 
 
-    //MWST.MWST();
+
 
    // Potenzrechnen.GenerateRandom();
 

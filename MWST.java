@@ -17,22 +17,9 @@ public class MWST{
 
     public static void Ausgabe(double Resultat, double Betrag){ // Resultat und Betrag für Ausgabe
 
-        System.out.println("Die MWST von " + Betrag + ".- beträgt " + Resultat + "%");
+        System.out.println("Die MWST von " + Betrag + ".- beträgt " + Resultat + ".-");
     }
 }
 
 
-/* Scanner scan = new Scanner(System.in);
 
-        System.out.println("Wie hoch ist der Betrag? ");
-
-        double Betrag = scan.nextDouble();
-
-        System.out.println("Wie hoch ist der MWST Satz? ");
-
-        double MwstSatz = scan.nextDouble();*/
-
-
-
-        /*double Prozent = Betrag / 100;
-        double Resultat = Prozent * MwstSatz;*/
