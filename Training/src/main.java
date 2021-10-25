@@ -1,6 +1,7 @@
 public class main {
     public static void main(String[] args) {
-        System.out.println(plus(5, 8));
+        int i = plus(5, 8);
+        System.out.println(i);
 
 
     }
