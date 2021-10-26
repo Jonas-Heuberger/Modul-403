@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class main<ATMhunderter> {
+public class main {
     public static void main(String[] args) {
         System.out.println("Geben Sie eine Zahl ein: ");
         int betrag = Abfrage();
