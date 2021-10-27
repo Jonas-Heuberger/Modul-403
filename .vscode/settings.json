@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Training/src",
         "MWST",
-        "Training/src"
+        "ATM/src"
     ]
 }
