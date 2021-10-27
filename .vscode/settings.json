@@ -3,5 +3,6 @@
         "Training/src",
         "MWST",
         "ATM/src"
-    ]
+    ],
+    "java.dependency.packagePresentation": "hierarchical"
 }
