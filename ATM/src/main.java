@@ -5,7 +5,6 @@ public class main {
         System.out.println("Geben Sie eine Zahl ein: ");
         int betrag = Abfrage();
         berechenen(betrag);
-
     }
     private static int Abfrage() {
         Scanner scan = new Scanner(System.in);
