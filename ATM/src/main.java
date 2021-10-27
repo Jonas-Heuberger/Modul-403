@@ -2,9 +2,10 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        System.out.println("Geben Sie eine Zahl ein: ");
+        System.out.print("Geben Sie eine Zahl ein: ");
         int betrag = Abfrage();
-        berechenen(betrag);
+        int[] Noten = berechnen(betrag);
+        Ausgabe(Noten);
     }
     private static int Abfrage() {
         Scanner scan = new Scanner(System.in);
@@ -12,53 +13,51 @@ public class main {
         return Zahl;
     }
 
-    private static void berechenen(int betrag){
-        int Tausender = 0;
-        int Zweihunderter = 0;
-        int Hunderter = 0;
-        int Fünfziger = 0;
-        int Zwanziger = 0;
-        int Zehner = 0;
-        int Fünfer = 0;
-        int Zweier = 0;
-        int Einer = 0;
+    public static int[] berechnen(int betrag){
+        int[]Noten = new int[9];
+
         while (betrag >= 1000){
             betrag = betrag - 1000;
-            Tausender++;
+            Noten[0]++;
         }while (betrag >= 200){
             betrag = betrag - 200;
-            Zweihunderter++;
+            Noten[1]++;
         }while (betrag >= 100){
             betrag = betrag - 100;
-            Hunderter++;
+            Noten[2]++;
         }while (betrag >= 50){
             betrag = betrag - 50;
-            Fünfziger++;
+           Noten[3]++;
         }while (betrag >= 20) {
             betrag = betrag - 20;
-            Zwanziger++;
+            Noten[4]++;
         }while (betrag >= 10){
             betrag = betrag - 10;
-            Zehner++;
+            Noten[5]++;
         }while (betrag >= 5){
             betrag = betrag - 5;
-            Fünfer++;
+            Noten[6]++;
         }while (betrag >= 2){
             betrag = betrag - 2;
-            Zweier++;
+            Noten[7]++;
         }while (betrag >= 1){
             betrag = betrag - 1;
-            Einer++;
+            Noten[8]++;
         }
-        System.out.println("Tausender: " + Tausender);
-        System.out.println("Zweihunderter: " + Zweihunderter);
-        System.out.println("Hunderter: " + Hunderter);
-        System.out.println("Fünfziger: " + Fünfziger);
-        System.out.println("Zwanziger: " + Zwanziger);
-        System.out.println("Zehner: " + Zehner);
-        System.out.println("Fünfer: " + Fünfer);
-        System.out.println("Zweier:  " + Zweier);
-        System.out.println("Einer: " + Einer);
+
+       return Noten;
+    }
+    private static void Ausgabe(int[] Noten){
+        System.out.println("Tausender: " + Noten[0]);
+        System.out.println("Zweihunderter: " + Noten[1]);
+        System.out.println("Hunderter: " + Noten[2]);
+        System.out.println("Fünfziger: " + Noten[3]);
+        System.out.println("Zwanziger: " + Noten[4]);
+        System.out.println("Zehner: " + Noten[5]);
+        System.out.println("Fünfer: " + Noten[6]);
+        System.out.println("Zweier:  " + Noten[7]);
+        System.out.println("Einer: " + Noten[8]);
+
     }
 
 }
