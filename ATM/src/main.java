@@ -129,7 +129,6 @@ public class main {
         }while (betrag >= 200){
             betrag = betrag - 200;
             Zweihunderter++;
-
         }while (betrag >= 100){
             betrag = betrag - 100;
             Hunderter++;
