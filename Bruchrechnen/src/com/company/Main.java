@@ -18,19 +18,19 @@ import java.util.Scanner;
         AusgabeProzentPlusGanzzahl(BruchPlusGanzzahl);
         }
 
-                private static void AusgabeProzentPlusGanzzahl(double BruchPlusGanzzahl) {
-                        System.out.println(BruchPlusGanzzahl);
-                }
+        private static void AusgabeProzentPlusGanzzahl(double BruchPlusGanzzahl) {
+                System.out.println(BruchPlusGanzzahl);
+        }
                 
-                private static double BruchPlusGanzzahl(double Ganzzahl, double Dezimalzahl) {
-                        return Ganzzahl + Dezimalzahl;
-                }
+        private static double BruchPlusGanzzahl(double Ganzzahl, double Dezimalzahl) {
+                return Ganzzahl + Dezimalzahl;
+        }
 
-                private static double Abfrage() {
-                Scanner scan = new Scanner(System.in);
-                double Zahl = scan.nextInt();
-                return Zahl;
-                }
+       private static double Abfrage() {
+        Scanner scan = new Scanner(System.in);
+        double Zahl = scan.nextInt();
+        return Zahl;
+        }         
 
         private static double dezimalZahl(double Zähler, double Nenner){
         return Zähler / Nenner;
