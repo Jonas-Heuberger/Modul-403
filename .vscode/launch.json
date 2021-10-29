@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Modul_403_223ecf3"
+        },
+        {
+            "type": "java",
             "name": "Launch main",
             "request": "launch",
             "mainClass": "main",

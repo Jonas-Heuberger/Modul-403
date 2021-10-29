@@ -12,8 +12,7 @@ import java.util.Scanner;
         Ausgabe(Dezimalzahl);
         double Prozentzahl = prozentZahl(Dezimalzahl);
         AusgabeProzent(Prozentzahl);
-        System.out.println("Geben Sie eine Ganzzahl ein: ");
-        double Ganzzahl = Abfrage();
+       
 
         }
 
