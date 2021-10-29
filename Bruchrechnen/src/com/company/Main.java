@@ -21,17 +21,17 @@ import java.util.Scanner;
                 private static void AusgabeProzentPlusGanzzahl(double BruchPlusGanzzahl) {
                         System.out.println(BruchPlusGanzzahl);
                 }
-
+                
                 private static double BruchPlusGanzzahl(double Ganzzahl, double Dezimalzahl) {
-                return Ganzzahl + Dezimalzahl;
+                        return Ganzzahl + Dezimalzahl;
                 }
 
-
                 private static double Abfrage() {
-        Scanner scan = new Scanner(System.in);
-        double Zahl = scan.nextInt();
-        return Zahl;
-        }
+                Scanner scan = new Scanner(System.in);
+                double Zahl = scan.nextInt();
+                return Zahl;
+                }
+
         private static double dezimalZahl(double Zähler, double Nenner){
         return Zähler / Nenner;
         }
@@ -42,6 +42,7 @@ import java.util.Scanner;
         private static double prozentZahl(double Dezimalzahl){
                 return Dezimalzahl * 100;
         }
+
         private static void AusgabeProzent(double Prozentzahl){
                 System.out.println("Prozentzahl: " + Prozentzahl + "%");
         }
