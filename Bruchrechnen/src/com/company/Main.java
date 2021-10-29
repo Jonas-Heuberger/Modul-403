@@ -14,17 +14,10 @@ import java.util.Scanner;
         AusgabeProzent(Prozentzahl);
         System.out.println("Geben Sie eine Ganzzahl ein: ");
         double Ganzzahl = Abfrage();
-        double BruchPlusGanzzahl = BruchPlusGanzzahl(Ganzzahl, Dezimalzahl);
-        AusgabeProzentPlusGanzzahl(BruchPlusGanzzahl);
+
         }
 
-        private static void AusgabeProzentPlusGanzzahl(double BruchPlusGanzzahl) {
-                System.out.println(BruchPlusGanzzahl);
-        }
-                
-        private static double BruchPlusGanzzahl(double Ganzzahl, double Dezimalzahl) {
-                return Ganzzahl + Dezimalzahl;
-        }
+
 
        private static double Abfrage() {
         Scanner scan = new Scanner(System.in);
