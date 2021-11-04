@@ -9,7 +9,6 @@ public class main {
 
 
 
-        System.out.println("Hello, World!");
     }
 
     private static String unit(){
@@ -24,10 +23,11 @@ private static int value(){
     int value = scan.nextInt();
     return value;
 }
-public static int calculate(int value,String unit){
-    int[] Array = new int[]{0, 10, 100, 1000, 100000, 1000000};
-    
-
+public static int[] calculate(int value,String unit){
+    String[] Längenmasse = new String[]{"mm", "cm", "dm", "m", "km"};
+    int[] Längenmasse = new int[]{0, 10, 100, 1000, 1000000};
+    String[] Hohlmasse = new String[] {"ml", "cl", "dl", "l", "hl"};
+    int[] Hohlmasse = new int[]{0,10,100, 1000, 100000};
 
 }
 }
