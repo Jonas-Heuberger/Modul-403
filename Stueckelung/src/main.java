@@ -28,6 +28,7 @@ public static int[] calculate(int value,String unit){
     int[] Längenmasse = new int[]{0, 10, 100, 1000, 1000000};
     String[] Hohlmasse = new String[] {"ml", "cl", "dl", "l", "hl"};
     int[] Hohlmasse = new int[]{0,10,100, 1000, 100000};
+    
 
 }
 }
