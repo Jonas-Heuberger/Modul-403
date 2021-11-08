@@ -6,15 +6,19 @@ public class main {
 		int amount = scanner.nextInt();
 		//your code goes here
 		amount = calculate(amount);
-		System.out.println(amount);
+        printAmount(amount);
 	}
 
-	public static int calculate(int amount){
+	private static int calculate(int amount){
 		for (int i = 0; i<= 3; i++){
 		    int cal1 = amount / 100;
-		    int cal2 = cal1 * 100;
-		    int cal3 = amount - cal2;
+		    int cal2 = cal1 * 10;
 		}
-		return cal3;
+		return amount - cal2;
+    
 	}
+
+    private static void printAmount(int amount){
+        System.out.println(amount);
+    }
 }
