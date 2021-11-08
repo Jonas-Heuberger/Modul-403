@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class main {
+	
     public static void main(String[] args) {
+        System.out.println("Geben Sie eine Zahl ein");
 		Scanner scanner = new Scanner(System.in);
 		int amount = scanner.nextInt();
 		//your code goes here
@@ -10,16 +12,10 @@ public class main {
 	}
 
 	private static int calculate(int amount){
-        int cal1;
-        int cal2;
-        int cal3;
-		for (int i = 0; i<= 3; i++){
-		    cal1 = amount / 100;
-		    cal2 = cal1 * 10;
-            cal3 = amount - cal2;
-		}
-		return cal3;
-    
+        for(int i = 0; i < 3; i++){
+            amount = amount - (amount/100)*10;
+        }
+        return amount;
 	}
 
     private static void printAmount(int amount){
