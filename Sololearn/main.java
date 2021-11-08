@@ -10,11 +10,15 @@ public class main {
 	}
 
 	private static int calculate(int amount){
+        int cal1;
+        int cal2;
+        int cal3;
 		for (int i = 0; i<= 3; i++){
-		    int cal1 = amount / 100;
-		    int cal2 = cal1 * 10;
+		    cal1 = amount / 100;
+		    cal2 = cal1 * 10;
+            cal3 = amount - cal2;
 		}
-		return amount - cal2;
+		return cal3;
     
 	}
 
