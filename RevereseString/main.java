@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class main {
 
     public static void main(String[] args) {
+        System.out.println("Enter a String ");
 		Scanner scanner = new Scanner(System.in);
 		String text = scanner.nextLine();
 		char[] arr = text.toCharArray();
